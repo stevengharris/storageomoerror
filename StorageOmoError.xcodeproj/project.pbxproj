@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA26E9F41BB86CCB008E7358 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA26E9F31BB86CCB008E7358 /* AppDelegate.swift */; };
+		AA26E9F61BB86CCC008E7358 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA26E9F51BB86CCC008E7358 /* ViewController.swift */; };
+		AA26E9F91BB86CCC008E7358 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA26E9F71BB86CCC008E7358 /* Main.storyboard */; };
+		AA26E9FB1BB86CCC008E7358 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA26E9FA1BB86CCC008E7358 /* Assets.xcassets */; };
+		AA26E9FE1BB86CCC008E7358 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA26E9FC1BB86CCC008E7358 /* LaunchScreen.storyboard */; };
+		AA26EA091BB86CCC008E7358 /* StorageOmoErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA26EA081BB86CCC008E7358 /* StorageOmoErrorTests.swift */; };
+		AA26EA141BB86CCC008E7358 /* StorageOmoErrorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA26EA131BB86CCC008E7358 /* StorageOmoErrorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA26EA051BB86CCC008E7358 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA26E9E81BB86CCB008E7358 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA26E9EF1BB86CCB008E7358;
+			remoteInfo = StorageOmoError;
+		};
+		AA26EA101BB86CCC008E7358 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA26E9E81BB86CCB008E7358 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA26E9EF1BB86CCB008E7358;
+			remoteInfo = StorageOmoError;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA26E9F01BB86CCB008E7358 /* StorageOmoError.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StorageOmoError.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA26E9F31BB86CCB008E7358 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA26E9F51BB86CCC008E7358 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA26E9F81BB86CCC008E7358 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA26E9FA1BB86CCC008E7358 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA26E9FD1BB86CCC008E7358 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA26E9FF1BB86CCC008E7358 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA26EA041BB86CCC008E7358 /* StorageOmoErrorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StorageOmoErrorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA26EA081BB86CCC008E7358 /* StorageOmoErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageOmoErrorTests.swift; sourceTree = "<group>"; };
+		AA26EA0A1BB86CCC008E7358 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA26EA0F1BB86CCC008E7358 /* StorageOmoErrorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StorageOmoErrorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA26EA131BB86CCC008E7358 /* StorageOmoErrorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageOmoErrorUITests.swift; sourceTree = "<group>"; };
+		AA26EA151BB86CCC008E7358 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA26E9ED1BB86CCB008E7358 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA26EA011BB86CCC008E7358 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA26EA0C1BB86CCC008E7358 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA26E9E71BB86CCB008E7358 = {
+			isa = PBXGroup;
+			children = (
+				AA26E9F21BB86CCB008E7358 /* StorageOmoError */,
+				AA26EA071BB86CCC008E7358 /* StorageOmoErrorTests */,
+				AA26EA121BB86CCC008E7358 /* StorageOmoErrorUITests */,
+				AA26E9F11BB86CCB008E7358 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA26E9F11BB86CCB008E7358 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA26E9F01BB86CCB008E7358 /* StorageOmoError.app */,
+				AA26EA041BB86CCC008E7358 /* StorageOmoErrorTests.xctest */,
+				AA26EA0F1BB86CCC008E7358 /* StorageOmoErrorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA26E9F21BB86CCB008E7358 /* StorageOmoError */ = {
+			isa = PBXGroup;
+			children = (
+				AA26E9F31BB86CCB008E7358 /* AppDelegate.swift */,
+				AA26E9F51BB86CCC008E7358 /* ViewController.swift */,
+				AA26E9F71BB86CCC008E7358 /* Main.storyboard */,
+				AA26E9FA1BB86CCC008E7358 /* Assets.xcassets */,
+				AA26E9FC1BB86CCC008E7358 /* LaunchScreen.storyboard */,
+				AA26E9FF1BB86CCC008E7358 /* Info.plist */,
+			);
+			path = StorageOmoError;
+			sourceTree = "<group>";
+		};
+		AA26EA071BB86CCC008E7358 /* StorageOmoErrorTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA26EA081BB86CCC008E7358 /* StorageOmoErrorTests.swift */,
+				AA26EA0A1BB86CCC008E7358 /* Info.plist */,
+			);
+			path = StorageOmoErrorTests;
+			sourceTree = "<group>";
+		};
+		AA26EA121BB86CCC008E7358 /* StorageOmoErrorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA26EA131BB86CCC008E7358 /* StorageOmoErrorUITests.swift */,
+				AA26EA151BB86CCC008E7358 /* Info.plist */,
+			);
+			path = StorageOmoErrorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA26E9EF1BB86CCB008E7358 /* StorageOmoError */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA26EA181BB86CCC008E7358 /* Build configuration list for PBXNativeTarget "StorageOmoError" */;
+			buildPhases = (
+				AA26E9EC1BB86CCB008E7358 /* Sources */,
+				AA26E9ED1BB86CCB008E7358 /* Frameworks */,
+				AA26E9EE1BB86CCB008E7358 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StorageOmoError;
+			productName = StorageOmoError;
+			productReference = AA26E9F01BB86CCB008E7358 /* StorageOmoError.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA26EA031BB86CCC008E7358 /* StorageOmoErrorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA26EA1B1BB86CCC008E7358 /* Build configuration list for PBXNativeTarget "StorageOmoErrorTests" */;
+			buildPhases = (
+				AA26EA001BB86CCC008E7358 /* Sources */,
+				AA26EA011BB86CCC008E7358 /* Frameworks */,
+				AA26EA021BB86CCC008E7358 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA26EA061BB86CCC008E7358 /* PBXTargetDependency */,
+			);
+			name = StorageOmoErrorTests;
+			productName = StorageOmoErrorTests;
+			productReference = AA26EA041BB86CCC008E7358 /* StorageOmoErrorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA26EA0E1BB86CCC008E7358 /* StorageOmoErrorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA26EA1E1BB86CCC008E7358 /* Build configuration list for PBXNativeTarget "StorageOmoErrorUITests" */;
+			buildPhases = (
+				AA26EA0B1BB86CCC008E7358 /* Sources */,
+				AA26EA0C1BB86CCC008E7358 /* Frameworks */,
+				AA26EA0D1BB86CCC008E7358 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA26EA111BB86CCC008E7358 /* PBXTargetDependency */,
+			);
+			name = StorageOmoErrorUITests;
+			productName = StorageOmoErrorUITests;
+			productReference = AA26EA0F1BB86CCC008E7358 /* StorageOmoErrorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA26E9E81BB86CCB008E7358 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Steven G. Harris";
+				TargetAttributes = {
+					AA26E9EF1BB86CCB008E7358 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					AA26EA031BB86CCC008E7358 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = AA26E9EF1BB86CCB008E7358;
+					};
+					AA26EA0E1BB86CCC008E7358 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = AA26E9EF1BB86CCB008E7358;
+					};
+				};
+			};
+			buildConfigurationList = AA26E9EB1BB86CCB008E7358 /* Build configuration list for PBXProject "StorageOmoError" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA26E9E71BB86CCB008E7358;
+			productRefGroup = AA26E9F11BB86CCB008E7358 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA26E9EF1BB86CCB008E7358 /* StorageOmoError */,
+				AA26EA031BB86CCC008E7358 /* StorageOmoErrorTests */,
+				AA26EA0E1BB86CCC008E7358 /* StorageOmoErrorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA26E9EE1BB86CCB008E7358 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA26E9FE1BB86CCC008E7358 /* LaunchScreen.storyboard in Resources */,
+				AA26E9FB1BB86CCC008E7358 /* Assets.xcassets in Resources */,
+				AA26E9F91BB86CCC008E7358 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA26EA021BB86CCC008E7358 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA26EA0D1BB86CCC008E7358 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA26E9EC1BB86CCB008E7358 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA26E9F61BB86CCC008E7358 /* ViewController.swift in Sources */,
+				AA26E9F41BB86CCB008E7358 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA26EA001BB86CCC008E7358 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA26EA091BB86CCC008E7358 /* StorageOmoErrorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA26EA0B1BB86CCC008E7358 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA26EA141BB86CCC008E7358 /* StorageOmoErrorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA26EA061BB86CCC008E7358 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA26E9EF1BB86CCB008E7358 /* StorageOmoError */;
+			targetProxy = AA26EA051BB86CCC008E7358 /* PBXContainerItemProxy */;
+		};
+		AA26EA111BB86CCC008E7358 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA26E9EF1BB86CCB008E7358 /* StorageOmoError */;
+			targetProxy = AA26EA101BB86CCC008E7358 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA26E9F71BB86CCC008E7358 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA26E9F81BB86CCC008E7358 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA26E9FC1BB86CCC008E7358 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA26E9FD1BB86CCC008E7358 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA26EA161BB86CCC008E7358 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA26EA171BB86CCC008E7358 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA26EA191BB86CCC008E7358 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StorageOmoError/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stevengharris.StorageOmoError;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA26EA1A1BB86CCC008E7358 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StorageOmoError/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stevengharris.StorageOmoError;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AA26EA1C1BB86CCC008E7358 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StorageOmoErrorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stevengharris.StorageOmoErrorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StorageOmoError.app/StorageOmoError";
+			};
+			name = Debug;
+		};
+		AA26EA1D1BB86CCC008E7358 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StorageOmoErrorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stevengharris.StorageOmoErrorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StorageOmoError.app/StorageOmoError";
+			};
+			name = Release;
+		};
+		AA26EA1F1BB86CCC008E7358 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StorageOmoErrorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stevengharris.StorageOmoErrorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StorageOmoError;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AA26EA201BB86CCC008E7358 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StorageOmoErrorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stevengharris.StorageOmoErrorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StorageOmoError;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA26E9EB1BB86CCB008E7358 /* Build configuration list for PBXProject "StorageOmoError" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA26EA161BB86CCC008E7358 /* Debug */,
+				AA26EA171BB86CCC008E7358 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA26EA181BB86CCC008E7358 /* Build configuration list for PBXNativeTarget "StorageOmoError" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA26EA191BB86CCC008E7358 /* Debug */,
+				AA26EA1A1BB86CCC008E7358 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA26EA1B1BB86CCC008E7358 /* Build configuration list for PBXNativeTarget "StorageOmoErrorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA26EA1C1BB86CCC008E7358 /* Debug */,
+				AA26EA1D1BB86CCC008E7358 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA26EA1E1BB86CCC008E7358 /* Build configuration list for PBXNativeTarget "StorageOmoErrorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA26EA1F1BB86CCC008E7358 /* Debug */,
+				AA26EA201BB86CCC008E7358 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA26E9E81BB86CCB008E7358 /* Project object */;
+}
