@@ -12,6 +12,7 @@ All the code, and it can't get any simpler, is in ViewController.swift. The othe
 * Create the Podfile and run `pod install`
 * Create the StorageOmoError-Bridging-Header.h file to link to GoogleMaps.h
 * Add -ObjC to OTHER_LDFLAGS in the project "Build Settings"
+* Set ENABLE_BITCODE = NO in project "Build Settings"
 
 In my case, I am using XCode 7 and an iPhone6 running iOS 9.0.1. I previously confirmed that the error appears on earlier versions of Google Maps API back to 9.2.
 
