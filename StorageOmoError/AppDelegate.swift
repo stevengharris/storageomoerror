@@ -3,19 +3,20 @@
 //  StorageOmoError
 //
 //  Created by Steven G. Harris on 9/27/15.
-//  Copyright © 2015 Steven G. Harris. All rights reserved.
 //
 
 import UIKit
+import CoreLocation
+import GoogleMaps
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        // Register for usage of Google Maps
         return true
     }
 

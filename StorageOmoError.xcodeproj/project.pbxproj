@@ -14,6 +14,7 @@
 		AA26E9FE1BB86CCC008E7358 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA26E9FC1BB86CCC008E7358 /* LaunchScreen.storyboard */; };
 		AA26EA091BB86CCC008E7358 /* StorageOmoErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA26EA081BB86CCC008E7358 /* StorageOmoErrorTests.swift */; };
 		AA26EA141BB86CCC008E7358 /* StorageOmoErrorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA26EA131BB86CCC008E7358 /* StorageOmoErrorUITests.swift */; };
+		E1FDE44A03DCDC34556818AA /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77FE385CF1500892B9BDB3F4 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D331E1D3FDFE14F97D1BE7D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		77FE385CF1500892B9BDB3F4 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA26E9F01BB86CCB008E7358 /* StorageOmoError.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StorageOmoError.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA26E9F31BB86CCB008E7358 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA26E9F51BB86CCC008E7358 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,8 @@
 		AA26EA0F1BB86CCC008E7358 /* StorageOmoErrorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StorageOmoErrorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA26EA131BB86CCC008E7358 /* StorageOmoErrorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageOmoErrorUITests.swift; sourceTree = "<group>"; };
 		AA26EA151BB86CCC008E7358 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA26EA231BB886C5008E7358 /* StorageOmoError-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StorageOmoError-Bridging-Header.h"; sourceTree = "<group>"; };
+		C0986A00A0C0C1CD57D8DD1F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1FDE44A03DCDC34556818AA /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +80,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1FF8CFA60D34938F59115870 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D331E1D3FDFE14F97D1BE7D /* Pods.debug.xcconfig */,
+				C0986A00A0C0C1CD57D8DD1F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AA26E9E71BB86CCB008E7358 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +96,9 @@
 				AA26EA071BB86CCC008E7358 /* StorageOmoErrorTests */,
 				AA26EA121BB86CCC008E7358 /* StorageOmoErrorUITests */,
 				AA26E9F11BB86CCB008E7358 /* Products */,
+				1FF8CFA60D34938F59115870 /* Pods */,
+				EE5E5E1A24519D44FE1FCF85 /* Frameworks */,
+				AA26EA231BB886C5008E7358 /* StorageOmoError-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +143,14 @@
 			path = StorageOmoErrorUITests;
 			sourceTree = "<group>";
 		};
+		EE5E5E1A24519D44FE1FCF85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77FE385CF1500892B9BDB3F4 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA26EA181BB86CCC008E7358 /* Build configuration list for PBXNativeTarget "StorageOmoError" */;
 			buildPhases = (
+				95CF82C85F8C0C881BFFD8DF /* Check Pods Manifest.lock */,
 				AA26E9EC1BB86CCB008E7358 /* Sources */,
 				AA26E9ED1BB86CCB008E7358 /* Frameworks */,
 				AA26E9EE1BB86CCB008E7358 /* Resources */,
+				C15C4ED9D1C5227D1CCF4A74 /* Embed Pods Frameworks */,
+				9D57675520B275417ED5B527 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,6 +216,7 @@
 		AA26E9E81BB86CCB008E7358 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Steven G. Harris";
 				TargetAttributes = {
@@ -249,6 +279,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		95CF82C85F8C0C881BFFD8DF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9D57675520B275417ED5B527 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C15C4ED9D1C5227D1CCF4A74 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AA26E9EC1BB86CCB008E7358 /* Sources */ = {
@@ -331,6 +409,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -350,6 +429,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -376,6 +456,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -388,6 +469,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -396,23 +478,32 @@
 		};
 		AA26EA191BB86CCC008E7358 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D331E1D3FDFE14F97D1BE7D /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = StorageOmoError/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.stevengharris.StorageOmoError;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YOURBUNDLE.StorageOmoError;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StorageOmoError-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		AA26EA1A1BB86CCC008E7358 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0986A00A0C0C1CD57D8DD1F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = StorageOmoError/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.stevengharris.StorageOmoError;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YOURBUNDLE.StorageOmoError;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StorageOmoError-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -483,6 +574,7 @@
 				AA26EA1A1BB86CCC008E7358 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA26EA1B1BB86CCC008E7358 /* Build configuration list for PBXNativeTarget "StorageOmoErrorTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +583,7 @@
 				AA26EA1D1BB86CCC008E7358 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA26EA1E1BB86CCC008E7358 /* Build configuration list for PBXNativeTarget "StorageOmoErrorUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +592,7 @@
 				AA26EA201BB86CCC008E7358 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
